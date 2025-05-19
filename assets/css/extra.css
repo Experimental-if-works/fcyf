@@ -1,0 +1,180 @@
+.nav-item{
+    background: transparent;
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+}
+.nav-item:hover, .nav-item:active{
+    background: linear-gradient(180deg,rgb(64, 180, 239) 50%, rgb(8, 103, 162) 100%);
+    padding: 0.5em 1em;
+    border-radius: 0.5em;
+    color: white;
+}
+.nav-item a:hover, .nav-item a:active {
+    color: white;
+}
+.nav-pills{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-bottom: 1em; 
+}
+.pills-underline{
+    border-bottom: 3px solid #00012A;
+}
+.img-icons{
+    width: 2em;
+    height: auto;
+}
+.img-footer{
+    width: 15rem;
+    height: auto;
+    padding: 1.5em 0;
+}
+.event-background{
+    background: #E2E8FF;
+    color: #030547;
+    padding: 3em 0;
+    border-radius: 2em;
+    margin-bottom: 3em;
+}
+.past-event{
+    padding: 2em;
+    margin: 0 0.5em;
+}
+.past-event-margin{
+    margin-left: 0.2em;
+}
+.event-background .date{
+    background: #0867A2;
+    color: white;
+    padding: 3em 0.5em;
+    border-radius: 1em;
+    text-align: center;
+}
+.footer h2.section-heading{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #40b4ef;
+}
+.footer h3.section-subheading{
+    color: white;
+}
+.past-date{
+    position: absolute;
+    top: 0;
+    right: 0.5em;
+    padding: 1.2em 0 !important;
+}
+.page-section h5.section-speaker {
+    color: #0867a2;
+}
+.nav-pills .nav-link {
+    color: #000234 !important;
+    background: transparent !important;
+}
+.nav-pills .nav-link.active {
+    color: white !important;
+    background: linear-gradient(180deg,rgb(64, 180, 239) 50%, rgb(8, 103, 162) 100%) !important;
+}
+.nav-item a:hover, .nav-item a:active {
+    color: white;
+}
+.nav-pills .nav-item .nav-link:hover{
+    color: white !important;
+    padding: 0.5em 1em;
+    background: linear-gradient(180deg,rgb(64, 180, 239) 50%, rgb(8, 103, 162) 100%) !important;
+}
+.nav-pills .nav-item:hover {
+    color: #000234 !important;
+    background: transparent !important;
+}
+/*Owl*/
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: rgba(0, 2, 52, 0.5);
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+    background: #000234;
+}
+.owl-carousel .owl-nav button.owl-prev {
+    color: rgb(0, 2, 52);
+    font-size: 3em;
+    position: absolute;
+    left: -1em;
+    top: 2em;
+}
+.owl-carousel .owl-nav button.owl-next{
+    color: rgb(0, 2, 52);
+    font-size: 3em;
+    position: absolute;
+    right: -1em;
+    top: 2em;
+}
+.owl-theme .owl-nav {
+    margin-top: 2em;
+}
+/*Section Location*/
+section.location{
+    font-family: "Montserrat", sans-serif;
+}
+section.location h4.blue-box{
+    font-weight: bolder;
+    padding: 0.5em 1em;
+    background-color: #1A7AB4;
+    color: white;
+    text-align: center;  
+}
+section.location p.location-description{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    padding: 1em;
+    margin: 0 0.5em;  
+}
+.box-img-location{
+    box-shadow: 10px 10px 10px 5px black;
+    border-radius: 2em;
+}
+.masthead-location-subheading{
+    color: #8DBBFF;
+}
+header.masthead {
+    padding-top: 10rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../img/home/encabezado_02.jpg");
+    background-position-x: 0%, 0%;
+    background-position-y: 0%, 0%;
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, scroll;
+    background-size: auto, auto;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    header.masthead {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+}
+.current-event{
+    margin-top: -10em;
+}
+.current-date{
+    margin-top: -3em;
+    background: linear-gradient(180deg,rgb(64, 180, 239) 0%, rgb(8, 103, 162) 50%) !important;
+}
+p.abstract{
+    font-family: "Montserrat", sans-serif;
+    font-size: medium;
+    padding: 1em;
+    margin: 0 0.5em;  
+}
