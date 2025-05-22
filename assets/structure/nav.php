@@ -12,7 +12,7 @@
                         <a href="index.php<?php echo $locale;?>"><i class="fa fa-home" aria-hidden="true"></i> <?php echo $opc1;?></a>
                     </li>
                     <li class="nav-item">
-                        <a href="departamento.php<?php echo $locale;?>"><i class="fa-solid fa-atom"></i> <?php echo $opc2;?></a>
+                        <a href="https://www.fisica.unam.mx/investigacion/departamentos/fisica_cuantica_y_fotonica/?lang=<?php echo $locale;?>"><i class="fa-solid fa-atom"></i> <?php echo $opc2;?></a>
                     </li>    
                     <li class="nav-item">
                         <a href="como_llegar.php<?php echo $locale;?>"><i class="fa fa-map-marker" aria-hidden="true"></i> <?php echo $opc3;?></a>
