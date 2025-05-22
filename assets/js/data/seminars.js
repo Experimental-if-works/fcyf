@@ -101,7 +101,7 @@ $.ajax({
                 '<div class="col-md-10 past-event-margin">'+
                     '<h5>'+ event_title + '</h5>'+
                     '<h5 class="section-speaker">'+ fullname + '</h5>'+
-                    '<h6>Institution</h6>'+
+                    '<h6>'+ institution + '</h6>'+
                 '</div>'+
             '</div>'+
             '<div class="row justify-content-center">'+
